@@ -68,15 +68,15 @@
             </Canvas>
         </GroupBox>
 
-        <Menu Height="34" Width="213" Margin="10,0,1158,229">
+        <Menu x:Name="mnuMain" Height="34" Width="213" Margin="10,0,1158,229">
             <MenuItem Header="File">
                 <MenuItem Header="Exit"/>
             </MenuItem>
             <MenuItem Header="Doughnuts">
                 <MenuItem Header="Make">
                     <MenuItem Header="Raised">
-                        <MenuItem Header="Glazed"/>
-                        <MenuItem Header="Sugar"/>
+                        <MenuItem x:Name="glazedMenuItem" Header="Glazed"/>
+                        <MenuItem x:Name="sugarManuItem" Header="Sugar"/>
                     </MenuItem>
                     <MenuItem Header="Filled"/>
                 </MenuItem>
